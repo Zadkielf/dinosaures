@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+body {
+    background: linear-gradient(to right, white, lightgrey, lightgrey, white);
+}
+
+header {
+    padding: 10px 100px;
+    background-color: lightorange;
+    color: darkgreen;
+    border: 15px ridge darkgreen;
+    border-radius: 30px;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    width: 200px;
+    margin: 10px auto;
+    padding: 5px;
+    color: darkgreen;
+    text-align: center;
+    border: 5px solid darkgreen;
+    border-radius: 15px 0 15px 0;
+}
+
+nav a, footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:hover, footer a:hover {
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 50px;
+    width: 25%;
+    padding: 5px;
+    color: darkgreen;
+    border-left: 4px solid lightgreen;
+    border-bottom: 4px solid lightgreen;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-radius: 0 0 0 8px;
+    clear: both;
+}
+
+p {
+    margin-left: 50px;
+}
+
+strong {
+    color: red;
+}
+
+img {
+    margin-left: 150px;
+    height: 200px;
+    border: 2px dashed orange;
+    border-radius: 25px;
+}
+
+img:hover {
+    transform: translate(-100px, 0);
+    transition: 2s;
+}
+
+.img_accueil {
+    float: right;
+    margin-right: 100px;
+    height: 150px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.img_accueil:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 4px 7px 5px grey;
+    transition: 0.3s;
+}
+
+.bloc_accueil {
+    clear: both;
+    padding: 10px;
+    height: 150px;
+}
+
+.bloc_accueil p {
+    margin-left: 50px;
+    line-height: 130px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    text-align: center;
+    display: inline;
+}
+
+nav li a {
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+    border: 2px solid green;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: green;
+    border: 2px solid white;
+}
